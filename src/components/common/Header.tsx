@@ -4,7 +4,7 @@ import { Separator } from "../ui";
 function Header() {
   return (
     <header className="sticky top-0 z-50 w-full flex items-center justify-center border-b border-muted-foreground/5 bg-background/30 backdrop-blur-md">
-      <div className="w-full container flex items-center justify-between px-6 py-3">
+      <div className="min-w-130 w-full container flex items-center justify-between px-6 py-3">
         <div className="flex items-center gap-6">
           <img
             src="https://github.com/hwanieo.png"

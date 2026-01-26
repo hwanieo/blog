@@ -18,3 +18,16 @@ export {
   DropdownMenuSubContent,
 } from "./dropdown-menu";
 export { Skeleton } from "./skeleton";
+export {
+  Field,
+  FieldLabel,
+  FieldDescription,
+  FieldError,
+  FieldGroup,
+  FieldLegend,
+  FieldSeparator,
+  FieldSet,
+  FieldContent,
+  FieldTitle,
+} from "./field";
+export { Input } from "./input";
