@@ -4,3 +4,4 @@ export { Sidebar } from "./Sidebar";
 export { Section } from "./Section";
 export { Main } from "./Main";
 export { CreatePostButton } from "./CreatePostButton";
+export { Editor } from "./Editor";
