@@ -11,7 +11,7 @@ function Header() {
             alt="@LOGO"
             width={28}
             height={28}
-            className="rounded-full border-2 border-muted-foreground cursor-pointer"
+            className="rounded-full border-2 border-blue-500/20 cursor-pointer"
           />
           <div className="flex items-center gap-5">
             <div className="font-semibold text-muted-foreground hover:text-foreground transition-all duration-500 cursor-pointer">
