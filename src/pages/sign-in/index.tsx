@@ -1,5 +1,5 @@
 import { Main, Section } from "@/components/common";
-import { Badge, Button, Input } from "@/components/ui";
+import { Button, Input } from "@/components/ui";
 import {
   Card,
   CardAction,
@@ -17,7 +17,7 @@ export default function SignIn() {
   return (
     <Main>
       <Section>
-        <Card className="w-full max-w-sm m-auto mt-20 rounded-none border-none shadow-none">
+        <Card className="w-full max-w-sm m-auto mt-20 rounded-none border-none shadow-none bg-background!">
           <CardHeader>
             <CardTitle>로그인</CardTitle>
             <CardDescription>나만을 위한 블로그 로그인 페이지</CardDescription>

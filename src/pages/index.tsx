@@ -1,10 +1,11 @@
-import { Main, Section, Sidebar } from "@/components/common";
+import { CreatePostButton, Main, Section, Sidebar } from "@/components/common";
 import HotPost from "@/components/common/HotPost";
 import Portfolio from "@/components/common/Portfolio";
 
 function App() {
   return (
     <Main>
+      <CreatePostButton />
       <Sidebar />
       <Section>
         <HotPost />
