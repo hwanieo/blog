@@ -1,10 +1,16 @@
-import { Sidebar } from "@/components/common";
+import { Main, Section, Sidebar } from "@/components/common";
+import HotPost from "@/components/common/HotPost";
+import Portfolio from "@/components/common/Portfolio";
 
 function App() {
   return (
-    <main className="w-full h-full min-h-180 flex p-6 gap-6">
+    <Main>
       <Sidebar />
-    </main>
+      <Section>
+        <HotPost />
+        <Portfolio />
+      </Section>
+    </Main>
   );
 }
 

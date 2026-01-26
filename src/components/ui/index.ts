@@ -17,3 +17,4 @@ export {
   DropdownMenuSubTrigger,
   DropdownMenuSubContent,
 } from "./dropdown-menu";
+export { Skeleton } from "./skeleton";
