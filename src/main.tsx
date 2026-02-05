@@ -8,6 +8,7 @@ import App from "./pages/index.tsx";
 import SignUp from "./pages/sign-up/index.tsx";
 import SignIn from "./pages/sign-in/index.tsx";
 import CreatePost from "./pages/posts/create.tsx";
+import { Toaster } from "sonner";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -22,6 +23,7 @@ createRoot(document.getElementById("root")!).render(
           </Route>
         </Routes>
       </BrowserRouter>
+      <Toaster />
     </ThemeProvider>
   </StrictMode>,
 );
